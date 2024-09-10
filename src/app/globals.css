@@ -1232,4 +1232,8 @@ footer {
     width: 100%;
     padding: 6% 0%;
   }
+
+  .header_link__animation::after {
+    width: 0%;
+  }
 }
