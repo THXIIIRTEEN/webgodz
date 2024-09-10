@@ -1,12 +1,26 @@
 "use client"
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import { motion } from "framer-motion";
 
 export default function Stage (props) {
 
     const [show, setShow] = useState(false);
+    const [windowWidth, setWindowWidth] = useState(0);
+
+    useEffect(() => {
+        const handleResize = () => {
+          setWindowWidth(window.innerWidth);
+        };
+
+        handleResize();
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+        window.removeEventListener('resize', handleResize);
+        };
+    }, []);
 
     const StageBlock = useRef(null);
     const StageBlockLeft = useRef(null);
@@ -39,7 +53,6 @@ export default function Stage (props) {
         }
       };
 
-    if (window) {
       return (
         <motion.div ref={StageBlock} className={`stage-block ${show === true ? 'align-top' : ''}`}
             variants={variants}
@@ -50,10 +63,10 @@ export default function Stage (props) {
             <div ref={StageBlockLeft} className={`stage-block_left ${show === true ? 'align-top' : ''}`}>
                 <button className="stage-block_number-button">{props.id}</button>
                 <div className="stage-block_text-block">
-                    { window.innerWidth > 600 &&
+                    { windowWidth > 600 &&
                       <h5>{props.name}</h5>
                     }
-                    { window.innerWidth < 600 &&
+                    { windowWidth < 600 &&
                       <h5>{props.mobileName}</h5>
                     } 
                     {   show === true &&
@@ -72,6 +85,5 @@ export default function Stage (props) {
                 <button className="stage-block_arrow-button" onClick={showTextFunction}>{`v`}</button>
             }
         </motion.div>
-    )
-    }
+      )
 }
