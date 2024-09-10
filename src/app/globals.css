@@ -116,12 +116,12 @@ a {
 
 @font-face {
   font-family: Unbounded;
-  src: url(/webgodz/public/fonts/Unbounded-VariableFont_wght.ttf);
+  src: url(/fonts/Unbounded-VariableFont_wght.ttf) format('truetype');
 }
 
 @font-face {
   font-family: Moderustic;
-  src: url(/webgodz/public/fonts/Moderustic-VariableFont_wght.ttf);
+  src: url(/fonts/Moderustic-VariableFont_wght.ttf) format('truetype');
 }
 
 body {
