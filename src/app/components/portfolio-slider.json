@@ -1,0 +1,41 @@
+[
+    {   
+        "id": 1,
+        "picture": "/images/triiiple.png",
+        "link": "https://triiiple.ru",
+        "name": "мессенджер triiiple",
+        "firstCategory": "мессенджер",
+        "secondCategory": "web-design",
+        "description": "Полностью рабочий мессенджер, который позволяет общаться в реальном времени. Проект включает в себя современный интерфейс, широкий набор функций и высокий уровень защиты данных пользователей."
+    },
+    {   
+        "id": 2,
+        "picture": "/images/modpack-pic.jpg",
+        "link": "https://thxiiirteen.github.io/Modpack-Site-HTML--CSS--JS/",
+        "name": "лэндинг modpack",
+        "firstCategory": "лэндинг",
+        "secondCategory": "web-design",
+        "description": "Многостраничный сайт, предназначенный для сообщества игроков Minecraft. Проект включает в себя необычные анимации и визуальные эффекты, которые делают его уникальным и привлекательным для пользователей."
+
+    },
+    {   
+        "id": 3,
+        "picture": "/images/influenzilla-pic.jpg",
+        "link": "https://thxiiirteen.github.io/Influenzilla-HTML-CSS-JS/",
+        "name": "лэндинг influenzilla",
+        "firstCategory": "лэндинг",
+        "secondCategory": "вёрстка",
+        "description": "Вёрстка одностраничного сайта с интересным дизайном и анимациями, который привлекает внимание пользователей и обеспечивает уникальный пользовательский опыт. Проект включает в себя современные визуальные эффекты и плавные переходы, что делает его выделяющимся и запоминающимся."
+
+    },
+    {   
+        "id": 4,
+        "picture": "/images/xiaomi-pic.jpg",
+        "link": "https://thxiiirteen.github.io/Xiami-Scooter-HTML-CSS/",
+        "name": "лэндинг xiami самокаты",
+        "firstCategory": "лэндинг",
+        "secondCategory": "вёрстка",
+        "description": "Вёрстка одностраничного сайта для рекламы продукта компании. Сайт предоставляет всю необходимую информацию о продукте, его преимуществах и способах приобретения."
+
+    }
+]
