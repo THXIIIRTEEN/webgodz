@@ -1213,7 +1213,7 @@ footer {
   }
 
   header ul li a {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     text-align: center;
   }
@@ -1224,7 +1224,7 @@ footer {
   }
 
   header ul {
-    gap: 40px;
+    gap: 25px;
   }
 
   .header_list__show li {
