@@ -39,7 +39,8 @@ export default function Stage (props) {
         }
       };
 
-    return (
+    if (window) {
+      return (
         <motion.div ref={StageBlock} className={`stage-block ${show === true ? 'align-top' : ''}`}
             variants={variants}
             initial="offscreen"
@@ -72,4 +73,5 @@ export default function Stage (props) {
             }
         </motion.div>
     )
+    }
 }
