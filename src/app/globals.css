@@ -73,6 +73,13 @@
   }
 }
 
+input,
+textarea,
+button,
+select,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
 * {
   box-sizing: border-box;
   padding: 0;
