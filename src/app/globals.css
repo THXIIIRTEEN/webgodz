@@ -1143,6 +1143,7 @@ footer {
 
   .contacts_top-block h5 {
     font-size: 32px;
+    text-wrap: nowrap;
   }
 
   .contacs_buttons-block a {
