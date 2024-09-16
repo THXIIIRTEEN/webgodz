@@ -54,7 +54,7 @@ export default function Stage (props) {
       };
 
       return (
-        <motion.div ref={StageBlock} className={`stage-block ${show === true ? 'align-top' : ''}`}
+        <motion.div onClick={showTextFunction} ref={StageBlock} className={`stage-block ${show === true ? 'align-top' : ''}`}
             variants={variants}
             initial="offscreen"
             whileInView="onscreen"

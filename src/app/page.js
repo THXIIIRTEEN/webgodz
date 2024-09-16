@@ -276,9 +276,9 @@ export default function Home() {
               <h5>Мы в соцсетях:</h5>
             </div>
             <div className="contacs_buttons-block">
-              <Link href={"https://vk.com/webgodz"}><img src="/images/vk-logo.svg"/></Link>
-              <Link href={"https://t.me/Kosssstyaaa"}><img src="/images/tg-logo.svg"/></Link>
-              <Link href={"#"}><img src="/images/ws-logo.svg"/></Link>
+              <Link target="_blank" rel="noopener" href={"https://vk.com/webgodz"}><img src="/images/vk-logo.svg"/></Link>
+              <Link target="_blank" rel="noopener" href={"https://t.me/Kosssstyaaa"}><img src="/images/tg-logo.svg"/></Link>
+              <Link target="_blank" rel="noopener" href={"https://wa.me/+79955632952"}><img src="/images/ws-logo.svg"/></Link>
             </div>
           </motion.div>
           <motion.div className="contacts_block contacts__second"
