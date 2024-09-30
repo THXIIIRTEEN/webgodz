@@ -38,7 +38,7 @@ export default function Service (props) {
         <motion.div className="service-card"
             variants={item}
         >
-            <div className="service-card_top">
+            <div className="service-card_top" onClick={() => {setShow(true)}}>
                 <div className="service-card_top_head">
                     <p>{props.date}</p>
                     <button onClick={() => {setShow(true)}}>i</button>
@@ -46,7 +46,7 @@ export default function Service (props) {
                 <h5>{props.name}</h5>
             </div>
 
-            <div className="service-card_bottom">
+            <div className="service-card_bottom" onClick={() => {setShow(true)}}>
                 <p>{props.text}</p>
                 <h5>от <span>{props.price}</span></h5>
             </div>

@@ -417,11 +417,12 @@ header button a {
   flex-direction: row;
   background: url(../../public/images/stages.png);
   background-size: cover;
-  padding: 2%;
+  padding: 1.5%;
   justify-content: space-between;
   align-items: center;
   border-radius: 25px;
   cursor: pointer;
+  width: 80%;
 }
 
 .stage-block_number-button {
@@ -954,6 +955,8 @@ footer {
 
   .stage-block  {
     position: relative;
+    width: 100%;
+    padding: 2%;
   }
 
   .stage-block_text-block {
